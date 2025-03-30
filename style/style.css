@@ -1,0 +1,267 @@
+/* General styles for the body */
+body {
+    font-family: 'daisy';
+    background-color: #586e5f;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header styling with enhanced appearance */
+header {
+    background-color: #806459;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(34, 127, 170, 0.3);
+}
+
+/* Remove bullet points from lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation styling */
+nav {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #5d4b4b;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #7a6868;
+}
+
+/* Improved card styling */
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    margin: 30px;
+    padding: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Improved image styling */
+.card img {
+    width: 45%; /* Adjust size */
+    border-radius: 20px; /* Smooths out the corners */
+    margin-bottom: 20px; /* Increased space below images */
+    margin-right: 25px; /* Slightly larger space between images */
+    padding: 10px; /* Adds padding inside image container */
+    display: inline-block;
+    vertical-align: top; /* Ensures images align at the top */
+}
+
+
+
+/* Enhanced typography */
+.card h2 {
+    color: #ece0e0;
+    margin-top: 0;
+    border-bottom: 2px solid #2c2727;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Enhanced button styling */
+.button {
+    display: inline-block;
+    background-color: #8b6f6f;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #7a5c5c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section headings */
+h2 {
+    margin-top: 30px;
+    color: #4a3b3b;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}body {
+    font-family: 'daisy';
+    background-color: #586e5f;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header styling with enhanced appearance */
+header {
+    background-color: #527c83;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(34, 127, 170, 0.3);
+    color: #333; /* Darker text color for better readability against bright background */
+}
+
+/* Remove bullet points from lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation styling */
+nav {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #5d4b4b;
+}
+
+/* Improve navigation link contrast */
+nav a, 
+nav li a {
+    color: #d4ff00; /* Bright yellow-green for better contrast */
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add shadow for better readability */
+}
+
+nav a:hover {
+    background-color: #7a6868;
+    color: #ffffff;
+}
+
+/* Improved card styling */
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    margin: 30px;
+    padding: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Improved image styling */
+.card img {
+    width: 45%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fix section heading color in cards */
+.card h2 {
+    color: #4a3b3b; /* Changed from #ece0e0 to a darker color for better contrast on white */
+    margin-top: 0;
+    border-bottom: 2px solid #2c2727;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+/* Style for section headings in the navigation/header area */
+header h2, 
+nav h2,
+#the-d-day,
+#my-projects {
+    color: #333; /* Dark color for contrast against the bright green */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Light shadow for better readability */
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Enhanced button styling */
+.button {
+    display: inline-block;
+    background-color: #8b6f6f;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #7a5c5c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section headings outside of cards */
+h2 {
+    margin-top: 30px;
+    color: #333; /* Changed from #4a3b3b for better contrast */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
